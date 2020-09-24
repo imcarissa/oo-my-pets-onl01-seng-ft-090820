@@ -5,4 +5,6 @@ class Owner
   def initialize(name)
     @name = name
   end
-end
+end\
+
+owner = Owner.new(name)
