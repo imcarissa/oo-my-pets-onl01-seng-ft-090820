@@ -12,6 +12,6 @@ class Dog
   end
   binding.pry
   def self.all
-    Dog.all.include?
+    self.all.include?
   end
 end
