@@ -9,6 +9,6 @@ class Owner
   end
   
   def say_species(species)
-    puts "I am a human"
+    puts "I am a #{species}"
   end
 end
