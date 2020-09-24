@@ -28,5 +28,6 @@ class Owner
   end
   
   def cats
-    cats.collect do 
+    Cat.collect { |cat| cat.owner == self} 
+  end
 end
