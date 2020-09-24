@@ -56,10 +56,10 @@ class Owner
   end
   
   def sell_pets
-    pets.each { |pet| pets.mood = [] }
+    pets.
   end
   
   def list_pets
-    "I have #{dogs.sum} dogs, and #{cats.sum} cats."
+    "I have #{dogs.length} dogs, and #{cats.length} cats."
   end
 end
