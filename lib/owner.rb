@@ -6,5 +6,11 @@ class Owner
     @name = name
   end
   
-  def 
+  def species
+    
+  end
+  
+  def say_species
+    
+  end
 end
