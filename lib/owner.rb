@@ -6,5 +6,3 @@ class Owner
     @name = name
   end
 end
-
-owner = Owner.new(name)
