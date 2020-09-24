@@ -12,6 +12,5 @@ class Dog
   end
   
   def self.all
-    self.all.include?(dogs)
   end
 end
