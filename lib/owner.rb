@@ -28,7 +28,7 @@ class Owner
   end
   
   def cats
-    Song.all.select {|song| song.artist == self}
+    cats.all.select {|cats| cat.owner == self}
   end 
   
   def dogs
