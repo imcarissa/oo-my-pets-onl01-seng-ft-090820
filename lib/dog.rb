@@ -8,4 +8,6 @@ class Dog
     @owner = owner
     @mood = "nervous"
   end
+  
+  
 end
