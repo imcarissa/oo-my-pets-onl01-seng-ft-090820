@@ -28,6 +28,32 @@ class Owner
   end
   
   def cats
-    cats.collect { |cat| cat.owner == self} 
+    
+  end 
+  
+  def dogs
+    
   end
+  
+  def pets 
+    
+  end
+  
+  def buy_cat
+    
+  end
+  
+  def buy_dog
+    
+  end
+  
+  def walks_dogs
+    
+  end
+  
+  def feed_cats
+    
+  end
+  
+  
 end
