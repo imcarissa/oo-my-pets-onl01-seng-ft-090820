@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
   
    attr_reader :name, :owner, :mood
@@ -8,8 +10,8 @@ class Dog
     @owner = owner
     @mood = "nervous"
   end
-  
+  binding.pry
   def self.all
-    @all
+    Dog.all.include?
   end
 end
