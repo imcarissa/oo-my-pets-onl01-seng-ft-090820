@@ -26,4 +26,7 @@ class Owner
   def self.reset_all
     
   end
+  
+  def cats
+    cats.collect do 
 end
