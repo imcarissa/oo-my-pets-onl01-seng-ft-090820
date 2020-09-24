@@ -10,7 +10,7 @@ class Dog
     @owner = owner
     @mood = "nervous"
   end
-  binding.pry
+  
   def self.all
     self.all.include?
   end
